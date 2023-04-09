@@ -48,7 +48,6 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
-
 }
 .col-2-of-4{
   display: grid;
@@ -170,6 +169,7 @@ background: #005050;
 .hero .show{
   font-size: 1.6rem;
   display: block;
+  
 }.hide{
   display: none;
 }
@@ -192,8 +192,7 @@ background: #005050;
   gap: 2.5rem;
 }
 .fbox{
-  color: black;
-  padding: 5rem 2rem;
+  padding: 5rem 1.1rem;
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -208,6 +207,7 @@ background: #005050;
 }
 .fbox p{
   font-size: 1.6rem;
+  color: #565656;
   line-height: 1;
   letter-spacing: 1px;
 }
@@ -317,7 +317,7 @@ footer{
   text-align: center;
 }
 .fbox {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   flex-direction: column;
   display: flex;
   align-items: center;
