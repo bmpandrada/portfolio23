@@ -300,8 +300,7 @@ background: #005050;
   text-align: center;
 }
 .fbox {
-  color: black;
-  padding: 0 2rem;
+  padding: 0 1rem;
   flex-direction: column;
   display: flex;
   align-items: center;
