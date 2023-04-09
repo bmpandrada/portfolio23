@@ -16,7 +16,7 @@ const show = () => {
         </h1>
       </div>
       <nav className="navbar">
-        <ul className={`${toggle ? "navbar-list shows": "navbar-list"}`}>
+        <ul className={`${!toggle ? "navbar-list shows": "navbar-list"}`}>
           <li onClick={show} className="item"><a href="#">Home</a></li>
           <li onClick={show} className="item"><a href="#">About</a></li>
           <li onClick={show} className="item"><a href="#">Project</a></li>
@@ -25,7 +25,7 @@ const show = () => {
       </nav>
 
       <div className="burger" onClick={show}>
-          {!toggle ? <MenuIcon className='burger-icon'/> 
+          {toggle ? <MenuIcon className='burger-icon'/> 
           : <CloseIcon className='burger-icon'/>}  
             
         </div>

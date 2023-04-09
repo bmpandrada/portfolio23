@@ -277,9 +277,11 @@ background: #005050;
 .col-1-of-2 {
     grid-template-columns: repeat(1, 1fr);
     gap: 1.2rem;
+    width: 100%;
 }
 .col-2-of-4{
   grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 .navbar-list{
   display: none;
@@ -298,7 +300,8 @@ background: #005050;
 }
 .fbox {
   color: black;
-  padding: 0 2rem;
+  padding: 0;
+ 
   display: flex;
   align-items: center;
   gap: 1rem;
