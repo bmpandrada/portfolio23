@@ -79,6 +79,7 @@ body{
   z-index: 0;
 }
 header{
+  backface-visibility: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,6 +89,7 @@ header{
   position: fixed;
   width: 100%;
   z-index: 999;
+  box-shadow: 0 0 2px 1px #0e9494;
 }
 .text-logo{
   font-family: 'Courier New', Courier, monospace;
@@ -269,6 +271,7 @@ background: #005050;
   top: 100%;
   background-color: #005050;
   padding: 0 0 5rem 0;
+  box-shadow: 0 1px 1px .3px #0e9494;
 }
 .item.btn{
   margin-top: 2rem;
