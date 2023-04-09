@@ -23,6 +23,9 @@ function App() {
       <section className='projects'>
         <Project />
       </section>
+      <footer>
+        <h3>&copy; Bruce Andrada | 2023</h3>
+      </footer>
     </div>)
 }
 
